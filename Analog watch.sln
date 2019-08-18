@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analog watch.Android", "Analog watch\Analog watch.Android\Analog watch.Android.csproj", "{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analog watch", "Analog watch\Analog watch\Analog watch.csproj", "{B8BBD096-6CC3-4F22-AA08-57BB195D962A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAnalogWatch", "UnitTestAnalogWatch\UnitTestAnalogWatch.csproj", "{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BDFDFA-6404-4158-8BEE-CBB1CE4867C4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9B21A13-C1F9-4C38-A4C7-8A2A37684B30}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\obj\Debug\UnitTestAnalogWatch.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\obj\Debug\UnitTestAnalogWatch.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\UnitTestAnalogWatch.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\UnitTestAnalogWatch.pdb
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Analog watch.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Analog watch.pdb
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\obj\Debug\UnitTestAnalogWatch.csproj.CopyComplete
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\obj\Debug\UnitTestAnalogWatch.dll
+C:\Users\User\source\repos\Analog watch\UnitTestAnalogWatch\obj\Debug\UnitTestAnalogWatch.pdb
