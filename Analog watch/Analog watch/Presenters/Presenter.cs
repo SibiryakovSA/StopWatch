@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Analog_watch.Models;
-using Analog_watch;
-using System.Threading.Tasks;
+﻿using Analog_watch.Models;
+using System;
 using Xamarin.Forms;
 
 namespace Analog_watch.Presenters
@@ -12,7 +8,7 @@ namespace Analog_watch.Presenters
     {
         StopWhatch stopWhatch;
         MainPage mainPage;
-        
+
         public Page GetPage
         {
             get
@@ -40,18 +36,24 @@ namespace Analog_watch.Presenters
             else if (mainPage.GetStopButton.Text == "Сбросить")
             {
                 stopWhatch.StopTimer();
-                mainPage.SetTimeLable(0);
+                SetTimeLable(0);
                 mainPage.GetStopButton.IsEnabled = false;
                 mainPage.GetClockSecondsHand.Rotation = 0;
-                mainPage.GetClockMinutesHand.Rotation = 0;
             }
         }
 
         public void Update()
         {
             mainPage.GetClockSecondsHand.Rotation += 6;
-            mainPage.GetClockMinutesHand.Rotation += 0.1;
-            mainPage.SetTimeLable(stopWhatch.GetSecondsHasPassed);
+            SetTimeLable(stopWhatch.GetSecondsHasPassed);
+        }
+
+        public void SetTimeLable(int secondsLeft)
+        {
+            string seconds = secondsLeft % 60 < 10 ? "0" + (secondsLeft % 60).ToString() : (secondsLeft % 60).ToString();
+            string minutes = secondsLeft % 3600 / 60 < 10 ? "0" + (secondsLeft % 3600 / 60).ToString() : (secondsLeft % 3600 / 60).ToString();
+            string hours = secondsLeft / 3600 < 10 ? "0" + (secondsLeft / 3600).ToString() : (secondsLeft / 3600).ToString(); ;
+            mainPage.SecondsLable = String.Format(" {0}:{1}:{2} ", hours, minutes, seconds);
         }
 
         public Presenter(StopWhatch sw)

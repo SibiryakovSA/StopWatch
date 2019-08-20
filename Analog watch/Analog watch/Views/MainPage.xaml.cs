@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel;
 using Xamarin.Forms;
 
 namespace Analog_watch
 {
-    
+
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
         Grid grid;
         Image clockFace;
         Image clockSecondsHand;
-        Image clockMinutesHand;
         Label seconds;
         Button start;
         Button stop;
@@ -44,20 +38,16 @@ namespace Analog_watch
             }
         }
 
-        public Image GetClockMinutesHand
+        public string SecondsLable
         {
             get
             {
-                return clockMinutesHand;
+                return seconds.Text;
             }
-        }
-
-        public void SetTimeLable(int secondsLeft)
-        {
-            string seconds = secondsLeft % 60 < 10 ? "0" + (secondsLeft % 60).ToString() : (secondsLeft % 60).ToString();
-            string minutes = secondsLeft % 3600 / 60 < 10 ? "0" + (secondsLeft % 3600 / 60).ToString() : (secondsLeft % 3600 / 60).ToString();
-            string hours = secondsLeft / 3600 < 10 ? "0" + (secondsLeft / 3600).ToString() : (secondsLeft / 3600).ToString();;
-            this.seconds.Text = String.Format(" {0}:{1}:{2} ", hours, minutes, seconds);
+            set
+            {
+                seconds.Text = value;
+            }
         }
 
         void Init()
@@ -77,17 +67,14 @@ namespace Analog_watch
                 }
             };
 
-            clockFace = new Image {Source = "ClockFaceWithoutHands2.png"};
-            clockSecondsHand = new Image { Source = "ClockSecondsHand2.png" };
-            clockMinutesHand = new Image { Source = "ClockMinutsHand2.png" };
+            clockFace = new Image { Source = "ClockFaceWithoutHands2.png" };
+            clockSecondsHand = new Image { Source = "ClockSecondsHand3.png" };
             start = new Button { Text = "Старт" };
             stop = new Button { Text = "Пауза", IsEnabled = false };
-            seconds = new Label { Text = " 00:00:00 ", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center, FontSize = 24 , BackgroundColor = Color.White};
+            seconds = new Label { Text = " 00:00:00 ", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.White };
 
             grid.Children.Add(clockFace, 0, 0);
             Grid.SetColumnSpan(clockFace, 2);
-            grid.Children.Add(clockMinutesHand, 0, 0);
-            Grid.SetColumnSpan(clockMinutesHand, 2);
             grid.Children.Add(clockSecondsHand, 0, 0);
             Grid.SetColumnSpan(clockSecondsHand, 2);
 
@@ -97,10 +84,8 @@ namespace Analog_watch
             grid.Children.Add(start, 1, 2);
 
             this.grid = grid;
-            //Content = grid;         
 
-
-            relativeLayout.Children.Add(grid, 
+            relativeLayout.Children.Add(grid,
                 Constraint.Constant(0),
                 Constraint.Constant(0),
                 Constraint.RelativeToParent((parent) => { return parent.Width; }),

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Timers;
 using Xamarin.Forms;
 
 namespace Analog_watch.Models
@@ -28,7 +26,8 @@ namespace Analog_watch.Models
             if (!timerIsWork)
             {
                 timerIsWork = true;
-                Device.StartTimer(TimeSpan.FromSeconds(1), () => {
+                Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+                {
                     if (timerIsWork)
                     {
                         secondsLeft++;
@@ -69,9 +68,9 @@ namespace Analog_watch.Models
 
         public StopWhatch()
         {
-            
+
         }
 
-        
+
     }
 }

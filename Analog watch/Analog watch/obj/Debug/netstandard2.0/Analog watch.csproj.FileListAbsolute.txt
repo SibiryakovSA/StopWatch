@@ -10,3 +10,19 @@ C:\Users\User\source\repos\Analog watch\Analog watch\Analog watch\obj\Debug\nets
 C:\Users\User\source\repos\Analog watch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.pdb
 C:\Users\User\source\repos\Analog watch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.csprojAssemblyReference.cache
 C:\Users\User\source\repos\Analog watch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Analog watch.deps.json
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Analog watch.dll
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Analog watch.pdb
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.csprojAssemblyReference.cache
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.AssemblyInfo.cs
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.csproj.CopyComplete
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.dll
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\Analog watch.pdb
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch\obj\Debug\netstandard2.0\XamlC.stamp
