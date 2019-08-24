@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel;
 using Xamarin.Forms;
+using SkiaSharp;
 
 namespace Analog_watch
 {
@@ -66,12 +67,12 @@ namespace Analog_watch
                     new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) }
                 }
             };
-
+            
             clockFace = new Image { Source = "ClockFaceWithoutHands2.png" };
             clockSecondsHand = new Image { Source = "ClockSecondsHand3.png" };
-            start = new Button { Text = "Старт" };
-            stop = new Button { Text = "Пауза", IsEnabled = false };
-            seconds = new Label { Text = " 00:00:00 ", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.White };
+            start = new Button { Text = "Старт", Margin = new Thickness(5, 10, 10, 10) };
+            stop = new Button { Text = "Пауза", IsEnabled = false, Margin = new Thickness(10, 10, 5, 10) };
+            seconds = new Label { Text = " 00:00:00 ", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center};
 
             grid.Children.Add(clockFace, 0, 0);
             Grid.SetColumnSpan(clockFace, 2);
@@ -84,7 +85,7 @@ namespace Analog_watch
             grid.Children.Add(start, 1, 2);
 
             this.grid = grid;
-
+            
             relativeLayout.Children.Add(grid,
                 Constraint.Constant(0),
                 Constraint.Constant(0),
@@ -92,9 +93,9 @@ namespace Analog_watch
                 Constraint.RelativeToParent((parent) => { return parent.Height; }));
         }
 
-
         public MainPage()
         {
+            
             InitializeComponent();
             Init();
         }

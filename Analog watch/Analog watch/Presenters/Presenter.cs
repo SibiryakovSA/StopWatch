@@ -39,6 +39,7 @@ namespace Analog_watch.Presenters
                 SetTimeLable(0);
                 mainPage.GetStopButton.IsEnabled = false;
                 mainPage.GetClockSecondsHand.Rotation = 0;
+                mainPage.GetStopButton.Text = "Пауза";
             }
         }
 

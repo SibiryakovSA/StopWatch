@@ -1,30 +1,35 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Analog_watch.Models;
+using SkiaSharp;
+using System.IO;
 
 namespace Analog_watch.Models
 {
     [TestClass]
-    public class UnitTest1 : IObserver
+    public class UnitTest1
     {
-        StopWhatch sw = new StopWhatch();
-
         [TestMethod]
         public void TestMethod1()
         {
-
-            sw.StartTimer();
-            while (sw.GetTimeHasPassed != 5)
-            {
-
+            byte[] ba;
+            using (FileStream fs = new FileStream(@"C:\Users\User\Desktop\img1.png", FileMode.Open))
+            { 
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    fs.CopyTo(ms);
+                    ba = ms.ToArray();
+                }
             }
-            sw.StopTimer();
-        }
 
-        public void Update()
-        {
-            Console.WriteLine(sw.GetTimeHasPassed);
+            var bmp = SKBitmap.Decode(ba, new SKImageInfo(1920, 1080));
+
+
+            SKImage image = SKImage.FromBitmap(bmp);
+            Console.WriteLine(image.Height + " " + image.Width);
             
         }
+
     }
 }

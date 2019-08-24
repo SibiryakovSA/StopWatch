@@ -6,6 +6,7 @@
              mc:Ignorable="d"
              x:Class="Analog_watch.App">
     <Application.Resources>
-
+        <StyleSheet Source="/Views/StyleForMainPage.css"/>
     </Application.Resources>
+    
 </Application>

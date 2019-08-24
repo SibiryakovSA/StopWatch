@@ -5,8 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="Analog_watch.MainPage">
-
     <RelativeLayout x:Name="relativeLayout">
+        
         <Image Source = "bg2.jpg"  Aspect="Fill"/>
         <!--RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property = Hieght}"
                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property = Width}"-->
