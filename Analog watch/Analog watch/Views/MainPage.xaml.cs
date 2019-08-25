@@ -70,9 +70,9 @@ namespace Analog_watch
             
             clockFace = new Image { Source = "ClockFaceWithoutHands2.png" };
             clockSecondsHand = new Image { Source = "ClockSecondsHand3.png" };
-            start = new Button { Text = "Старт", Margin = new Thickness(5, 10, 10, 10) };
-            stop = new Button { Text = "Пауза", IsEnabled = false, Margin = new Thickness(10, 10, 5, 10) };
-            seconds = new Label { Text = " 00:00:00 ", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center};
+            start = new Button { Text = "Старт", Margin = new Thickness(5, 10, 10, 15), BackgroundColor = Color.FromHex("#00CB00") };
+            stop = new Button { Text = "Пауза", IsEnabled = false, Margin = new Thickness(10, 10, 5, 15) };
+            seconds = new Label { Text = "00:00:00", VerticalOptions = LayoutOptions.Center, HorizontalOptions = LayoutOptions.Center, Margin = new Thickness(0, 0, 0, 33)};
 
             grid.Children.Add(clockFace, 0, 0);
             Grid.SetColumnSpan(clockFace, 2);
@@ -91,6 +91,7 @@ namespace Analog_watch
                 Constraint.Constant(0),
                 Constraint.RelativeToParent((parent) => { return parent.Width; }),
                 Constraint.RelativeToParent((parent) => { return parent.Height; }));
+
         }
 
         public MainPage()
@@ -98,6 +99,7 @@ namespace Analog_watch
             
             InitializeComponent();
             Init();
+            
         }
     }
 }

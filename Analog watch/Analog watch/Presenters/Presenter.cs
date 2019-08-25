@@ -54,7 +54,7 @@ namespace Analog_watch.Presenters
             string seconds = secondsLeft % 60 < 10 ? "0" + (secondsLeft % 60).ToString() : (secondsLeft % 60).ToString();
             string minutes = secondsLeft % 3600 / 60 < 10 ? "0" + (secondsLeft % 3600 / 60).ToString() : (secondsLeft % 3600 / 60).ToString();
             string hours = secondsLeft / 3600 < 10 ? "0" + (secondsLeft / 3600).ToString() : (secondsLeft / 3600).ToString(); ;
-            mainPage.SecondsLable = String.Format(" {0}:{1}:{2} ", hours, minutes, seconds);
+            mainPage.SecondsLable = String.Format("{0}:{1}:{2}", hours, minutes, seconds);
         }
 
         public Presenter(StopWhatch sw)

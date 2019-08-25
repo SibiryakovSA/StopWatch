@@ -15,10 +15,6 @@ namespace Analog_watch
             Presenter presenter = new Presenter(stopWhatch);
 
             MainPage = presenter.GetPage;
-            //Background color
-            //MainPage.SetValue(NavigationPage.BarBackgroundColorProperty, Color.Red);
-            ////Title color
-            //MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.Black);
 
         }
 
