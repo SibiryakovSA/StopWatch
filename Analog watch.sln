@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analog watch.Android", "Ana
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Analog watch", "Analog watch\Analog watch\Analog watch.csproj", "{B8BBD096-6CC3-4F22-AA08-57BB195D962A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAnalogWatch", "UnitTestAnalogWatch\UnitTestAnalogWatch.csproj", "{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +25,6 @@ Global
 		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8BBD096-6CC3-4F22-AA08-57BB195D962A}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D1066ED-108A-4889-9C4D-9E6EE60ADC24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

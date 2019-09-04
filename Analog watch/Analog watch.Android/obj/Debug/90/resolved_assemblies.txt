@@ -4,7 +4,6 @@ C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\Java.Interop.dll
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\mscorlib.dll
-C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\SkiaSharp.dll
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\System.Core.dll
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\System.dll
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\android\assets\System.Numerics.dll

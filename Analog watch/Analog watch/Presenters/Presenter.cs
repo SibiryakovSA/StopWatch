@@ -1,11 +1,16 @@
 ﻿using Analog_watch.Models;
 using System;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Analog_watch.Presenters
 {
     class Presenter : IObserver
     {
+        //класс - презентер
+        //служит связующим звеном между моделью и отображением
+        //содержит всю логику отображения (нажатие кнопок, обновление отображения при сообщении из модели и тд)
+
         StopWhatch stopWhatch;
         MainPage mainPage;
 
@@ -23,6 +28,7 @@ namespace Analog_watch.Presenters
             mainPage.GetStopButton.IsEnabled = true;
             mainPage.GetStopButton.Text = "Пауза";
             stopWhatch.StartTimer();
+            DisableButtonsOnTime(150);
         }
 
         private void GetStopButton_Clicked(object sender, EventArgs e)
@@ -31,6 +37,7 @@ namespace Analog_watch.Presenters
             {
                 mainPage.GetStopButton.Text = "Сбросить";
                 stopWhatch.PauseTimer();
+                DisableButtonsOnTime(150);
 
             }
             else if (mainPage.GetStopButton.Text == "Сбросить")
@@ -41,6 +48,7 @@ namespace Analog_watch.Presenters
                 mainPage.GetClockSecondsHand.Rotation = 0;
                 mainPage.GetStopButton.Text = "Пауза";
             }
+
         }
 
         public void Update()
@@ -64,6 +72,15 @@ namespace Analog_watch.Presenters
             mainPage = new MainPage();
             mainPage.GetStartButton.Clicked += GetStart_Clicked;
             mainPage.GetStopButton.Clicked += GetStopButton_Clicked;
+        }
+
+        protected async void DisableButtonsOnTime(int ms = 200)
+        {
+            mainPage.GetStartButton.IsEnabled = false;
+            mainPage.GetStopButton.IsEnabled = false;
+            await Task.Delay(ms);
+            mainPage.GetStartButton.IsEnabled = true;
+            mainPage.GetStopButton.IsEnabled = true;
         }
     }
 }

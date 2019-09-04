@@ -7,6 +7,10 @@ namespace Analog_watch.Models
 
     internal class StopWhatch : IObservable
     {
+        //класс - модель
+        //выполняет всю вычислительную работу
+        //(Выполняет запуск, остановку секундомера. Считает количество прошедших секунд. Оповещает презентер каждую секунду (о том что секунда прошла))
+
         List<IObserver> observers = new List<IObserver> { };
         int secondsLeft = 0;
         bool timerIsWork = false;
@@ -41,7 +45,6 @@ namespace Analog_watch.Models
         public void PauseTimer()
         {
             timerIsWork = false;
-
         }
 
         public void StopTimer()
@@ -70,7 +73,5 @@ namespace Analog_watch.Models
         {
 
         }
-
-
     }
 }
