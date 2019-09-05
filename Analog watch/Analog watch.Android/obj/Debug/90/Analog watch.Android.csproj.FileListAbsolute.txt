@@ -987,7 +987,6 @@ C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\res\drawable\clocksecondshand3.png
-C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\bin\Debug\Analog watch.dll.mdb
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\res\drawable\ic_launcher.png
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\flata\09c17edc29b8f1d2c1cd4681a12884dc972b6ff2.stamp
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\flata\d3185544482fa9debfe1a87c4c3b5352c1ded008.stamp
@@ -1005,3 +1004,4 @@ C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\flata\4a44cc71cc6d2f13d91b3d5e5687fadf78932ec1.flata
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\flata\e0c9b29d8c2e4223cf559a46d917e515757de7b0.flata
 C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\obj\Debug\90\flata\50f94a0b5add5db49607847e4145b8e87887a658.flata
+C:\Users\User\source\repos\StopWatch\Analog watch\Analog watch.Android\bin\Debug\Analog watch.dll.mdb

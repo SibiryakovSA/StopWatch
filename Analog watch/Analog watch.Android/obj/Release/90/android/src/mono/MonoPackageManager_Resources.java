@@ -5,7 +5,6 @@ public class MonoPackageManager_Resources {
 		"Analog watch.Android.dll",
 		"Analog watch.dll",
 		"FormsViewGroup.dll",
-		"SkiaSharp.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
